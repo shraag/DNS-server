@@ -58,3 +58,4 @@ While the current implementation already delivers reliable DNS resolution, the f
 - Handling CNAMES: Implement logic to correctly handle CNAME records, which are used for domain aliases.
 - Support for more record types: Currently, our DNS resolver only handles A records. We could enhance it to support other types like MX, TXT, etc.
 - Concurrency: To improve the performance, the application can be made to resolve multiple DNS requests concurrently.
+- DNSSEC Support: Add support for DNSSEC to ensure the integrity and authenticity of the response from a DNS server.

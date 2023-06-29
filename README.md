@@ -16,6 +16,7 @@ This Python program should be run from the command line as follows:
 
 ```sh
 python3 dns_resolver.py www.tmz.com
+```
 
 ## Code Structure
 
